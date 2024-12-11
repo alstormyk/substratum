@@ -15,7 +15,7 @@ curl -Lo /etc/yum.repos.d/che-nerd-fonts-fedora-"${RELEASE}".repo https://copr.f
 curl -Lo /etc/yum.repos.d/peterwu-rendezvous-fedora-"${RELEASE}".repo https://copr.fedorainfracloud.org/coprs/peterwu/rendezvous/repo/fedora-"${RELEASE}"/peterwu-rendezvous-fedora-"${RELEASE}".repo
 # this installs a package from fedora repos
 rpm-ostree install alacritty dunst fzf helix jetbrains-mono-fonts kanshi mako nerd-fonts \
-                   rofi-wayland sddm sddm-wayland-sway \
+                   rofi-wayland sddm \
                    sway swaybg sway-config swaylock sway-systemd thunar \
                    waybar wayfire wf-shell wlr-randr wlsunset wofi
 
