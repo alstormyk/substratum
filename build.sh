@@ -16,7 +16,7 @@ curl -Lo /etc/yum.repos.d/peterwu-rendezvous-fedora-"${RELEASE}".repo https://co
 # this installs a package from fedora repos
 rpm-ostree install alacritty dunst fzf helix jetbrains-mono-fonts kanshi mako nerd-fonts \
                    rofi-wayland sddm sddm-wayland-sway \
-                   sway sway-bg sway-config swaylock sway-systemd thunar \
+                   sway swaybg sway-config swaylock sway-systemd thunar \
                    waybar wayfire wf-shell wlr-randr wlsunset wofi
 
 # this would install a package from rpmfusion
